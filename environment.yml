@@ -1,0 +1,34 @@
+name: tint
+channels:
+  - defaults
+  - pytorch
+  - conda-forge
+  - huggingface
+  - nvidia
+dependencies:
+  - python==3.9.7
+  - cudatoolkit==11.6
+  # - captum  # captum was not picked up from a conda package, so it is installed with pip
+  - datasets
+  - git
+  - jupyter
+  - numpy
+  - optuna
+  - pandas
+  - pip
+  - scikit-image
+  - scikit-learn
+  - scipy
+  - seaborn
+  - pytest
+  - pytorch
+  - pytorch-lightning
+  - torchmetrics
+  - torchvision
+  - transformers
+  - pip:
+      - black
+      - captum
+      - flake8
+      - prettytable
+      - tensorboard

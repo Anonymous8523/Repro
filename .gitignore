@@ -1,0 +1,28 @@
+# Pycharm
+.idea
+**/__pycache__
+
+# Package
+*.egg-info
+.DS_Store
+docs/.DS_Store
+dist
+
+# Pytest
+.htmlcov
+.coverage*
+coverage.xml
+
+# Jupyter
+examples/.ipynb_checkpoints
+
+# PyTorch Lightning
+lightning_logs
+
+# Latex
+out
+
+# Checkpoints, Tensorboard and PytorchLightning logs
+*.ckpt
+events.out.tfevents.*
+hparams.yaml
